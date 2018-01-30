@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  flex-flow: column;
+  min-height: 550px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 4px;
+}
+
+.profile-photo-container {
+  text-align: center;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.lists {
+  margin-top: 4px;
+}
+
+.lists li {
+  margin-left: -5px;
+}
+
+.ul-no-bullet {
+  list-style-type: none;
+}
+
+.ul-no-bullet a {
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-flow: row;
+}
+
+.App-header {
+  font-size: 18px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 104, 35);
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+  min-height: 40px;
+}
+
+.App-intro {
+  /*background-color: rgb(255, 248, 211);*/
+  font-size: 18px;
+  color: rgb(37, 37, 37);
+  padding-top: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 6px;
+  flex: 3 1 60%;
+  order: 2;
+}
+
+.App-side {
+  font-size: 18px;
+  color: rgb(37, 37, 37);
+  padding-top: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 6px;
+  flex: 0 6 6;
+}
