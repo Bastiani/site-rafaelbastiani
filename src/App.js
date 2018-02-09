@@ -17,25 +17,29 @@ const App = () => (
           <br />
           <b>Rafael Campos de Bastiani</b>
         </div>
+        <div>
+          <i className="fas fa-envelope" /> rafacdb@gmail.com<br />
+          <i className="fab fa-telegram-plane" /> @rafacdb
+        </div>
         <ul className="ul-no-bullet">
           <li>
             <a href="https://github.com/Bastiani">
-              <i className="fa fa-github" aria-hidden="true" /> GitHub
+              <i className="fab fa-github" /> GitHub
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/bastiani/">
-              <i className="fa fa-linkedin" aria-hidden="true" /> Linkedin
+              <i className="fab fa-linkedin" /> Linkedin
             </a>
           </li>
           <li>
             <a href="https://www.facebook.com/rbastiani/">
-              <i className="fa fa-facebook-official" aria-hidden="true" /> Facebook
+              <i className="fab fa-facebook-square" /> Facebook
             </a>
           </li>
           <li>
             <a href="https://twitter.com/RBastiani">
-              <i className="fa fa-twitter" aria-hidden="true" /> Twitter
+              <i className="fab fa-twitter" /> Twitter
             </a>
           </li>
         </ul>
