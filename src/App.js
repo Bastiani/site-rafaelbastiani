@@ -23,22 +23,26 @@ const App = () => (
         </div>
         <ul className="ul-no-bullet">
           <li>
-            <a href="https://github.com/Bastiani">
+            <a href="https://github.com/Bastiani" rel="noopener noreferrer" target="_blank">
               <i className="fab fa-github" /> GitHub
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/bastiani/">
+            <a
+              href="https://www.linkedin.com/in/bastiani/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <i className="fab fa-linkedin" /> Linkedin
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/rbastiani/">
+            <a href="https://www.facebook.com/rbastiani/" rel="noopener noreferrer" target="_blank">
               <i className="fab fa-facebook-square" /> Facebook
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/RBastiani">
+            <a href="https://twitter.com/RBastiani" rel="noopener noreferrer" target="_blank">
               <i className="fab fa-twitter" /> Twitter
             </a>
           </li>
@@ -46,13 +50,14 @@ const App = () => (
       </nav>
       <article className="App-intro">
         Olá, sou o Rafael, desenvolvedor de software.<br />
-        Tenho 36 anos, 14 anos de experiência, moro em Caxias do Sul/RS.<br />
+        Atuo na área a 14 anos.<br />
         <h2>Habilidades</h2>
         <ul className="lists">
           <li>Delphi</li>
           <li>JavaScript(ES6, ES7)</li>
+          <li>HTML/CSS</li>
           <li>RubyOnRails</li>
-          <li>React</li>
+          <li>React/ReactNative</li>
           <li>NodeJS</li>
           <li>GraphQL</li>
           <li>PostgreSQL</li>
@@ -61,14 +66,27 @@ const App = () => (
         <h2>Palestras</h2>
         <ul className="lists">
           <li>
-            <a href="http://meetup-graphql.surge.sh/#/">GraphQL</a>
+            <a href="http://meetup-graphql.surge.sh/#/" rel="noopener noreferrer" target="_blank">
+              GraphQL
+            </a>
             <br />
-            <a href="https://www.meetup.com/pt-BR/Rede-Neural/events/246024897/">Meetup</a>
+            <a
+              href="https://www.meetup.com/pt-BR/Rede-Neural/events/246024897/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Meetup
+            </a>
           </li>
         </ul>
         <h2>Projetos</h2>
         <ul className="lists">
           <li>RFDevCondomínios (RubyOnRails)</li>
+          <li>
+            <a href="https://bastiani.github.io/bah/" rel="noopener noreferrer" target="_blank">
+              bah, React components
+            </a>
+          </li>
         </ul>
       </article>
     </div>
